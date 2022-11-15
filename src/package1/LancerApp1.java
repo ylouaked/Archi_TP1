@@ -36,6 +36,8 @@ public class LancerApp1 {
 		d.ajouterObjet(lesTrains[i]);
 		}
 		
+		Visage v = new Visage(d);
+		d.ajouterObjet(v);
 		
 		while(true) {
 		// la zone de dessin se réaffiche

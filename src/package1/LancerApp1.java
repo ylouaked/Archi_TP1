@@ -43,6 +43,8 @@ public class LancerApp1 {
 		Forme f2 = new PolygoneRegulier(5, 240, 40, 40, 4.0f, Color.DARK_GRAY, null);
 		d.ajouterObjet(f1);
 		d.ajouterObjet(f2);
+		
+		
 		while(true) {
 		// la zone de dessin se réaffiche
 		d.repaint();
